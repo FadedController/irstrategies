@@ -1,0 +1,88 @@
+.nav-logo {
+  color: #194187;
+  margin: 8px;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+}
+
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.service-img {
+  width: 100%;
+}
+
+.service {
+  margin-top: 20px;
+  padding: 0;
+}
+
+.first-service {
+  margin-top: 0;
+  padding: 0;
+}
+
+.icon {
+  height: 200px;
+}
+
+.inner-icon {
+  height: 20px;
+}
+
+@media (max-width: 576px) {
+  .hero-div,
+  .hero,
+  .align-right,
+  .align-left .align-justify {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .service-img {
+    margin-top: 30px;
+  }
+}
