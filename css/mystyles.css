@@ -1,3 +1,12 @@
+label {
+  color: #fff;
+  text-align: left;
+}
+
+.input-form {
+  width: 100%;
+}
+
 .nav-logo {
   color: #194187;
   margin: 8px;

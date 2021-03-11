@@ -328,7 +328,12 @@
           <h3 class="section-subheading align-left" style="color: #fff">
             Llena la siguiente informacion para ponerte en contacto con nosotros
           </h3>
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form
+            id="contactForm"
+            name="contactForm1"
+            novalidate="novalidate"
+            data-netlify="true"
+          >
             <div class="row align-items-stretch mb-5">
               <div class="col-md-6">
                 <div class="form-group">
@@ -336,9 +341,8 @@
                     class="form-control"
                     id="name"
                     type="text"
+                    name="Nombre"
                     placeholder="Nombre *"
-                    required="required"
-                    data-validation-required-message="Por favor introduce tu nombre."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -347,9 +351,8 @@
                     class="form-control"
                     id="email"
                     type="email"
+                    name="Email"
                     placeholder="Email *"
-                    required="required"
-                    data-validation-required-message="Por favor introduce tu email."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -358,9 +361,8 @@
                     class="form-control"
                     id="phone"
                     type="tel"
+                    name="Telefono"
                     placeholder="Teléfono *"
-                    required="required"
-                    data-validation-required-message="Por favor introduce tu número de teléfono."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -370,9 +372,8 @@
                   <textarea
                     class="form-control"
                     id="message"
+                    name="Mensaje"
                     placeholder="Mensaje *"
-                    required="required"
-                    data-validation-required-message="Escribe tu mensaje."
                   ></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
@@ -423,8 +424,8 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Contact form JS-->
-    <script src="assets/mail/jqBootstrapValidation.js"></script>
-    <script src="assets/mail/contact_me.js"></script>
+    <!-- <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script> -->
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
   </body>
