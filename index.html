@@ -242,7 +242,12 @@
           <h3 class="section-subheading align-left" style="color: #fff">
             Llena la siguiente informacion para ponerte en contacto con nosotros
           </h3>
-          <form id="contactForm" name="contact" novalidate="novalidate" netlify>
+          <form
+            id="contactForm"
+            name="Contacto"
+            novalidate="novalidate"
+            data-netlify="true"
+          >
             <div class="row align-items-stretch mb-5">
               <div class="col-md-6">
                 <div class="form-group">
@@ -250,9 +255,8 @@
                     class="form-control"
                     id="name"
                     type="text"
+                    name="Nombre"
                     placeholder="Nombre *"
-                    required="required"
-                    data-validation-required-message="Por favor introduce tu nombre."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -261,9 +265,8 @@
                     class="form-control"
                     id="email"
                     type="email"
+                    name="Email"
                     placeholder="Email *"
-                    required="required"
-                    data-validation-required-message="Por favor introduce tu email."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -272,9 +275,8 @@
                     class="form-control"
                     id="phone"
                     type="tel"
+                    name="Telefono"
                     placeholder="Teléfono *"
-                    required="required"
-                    data-validation-required-message="Por favor introduce tu número de teléfono."
                   />
                   <p class="help-block text-danger"></p>
                 </div>
@@ -284,9 +286,8 @@
                   <textarea
                     class="form-control"
                     id="message"
+                    name="Mensaje"
                     placeholder="Mensaje *"
-                    required="required"
-                    data-validation-required-message="Escribe tu mensaje."
                   ></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
