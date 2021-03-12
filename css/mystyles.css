@@ -1,3 +1,7 @@
+* {
+  font-family: "Allan", cursive !important;
+}
+
 label {
   color: #fff;
   text-align: left;
@@ -10,6 +14,11 @@ label {
 .nav-logo {
   color: #194187;
   margin: 8px;
+  font-size: 40px;
+}
+
+.nav-elem {
+  font-size: 30px !important;
 }
 
 .logo-div {
@@ -22,10 +31,19 @@ label {
   height: 100vh;
 }
 
+.hero-image {
+  width: 100%;
+}
+
 .hero-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.hero-text {
+  margin-top: 20px;
+  padding-right: 150px;
 }
 
 .about-icon {
@@ -40,6 +58,10 @@ label {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.navbar {
+  background-color: #f5f5f5 !important;
 }
 
 .align-right {
@@ -80,13 +102,26 @@ label {
   height: 20px;
 }
 
+.section {
+  margin-top: 30px;
+}
+
 @media (max-width: 576px) {
   .hero-div,
   .hero,
   .align-right,
-  .align-left .align-justify {
+  .align-left,
+  .align-justify {
     align-items: center;
     text-align: center;
+  }
+
+  .hero {
+    margin-top: 80px;
+  }
+
+  .hero-image {
+    margin-top: 30px;
   }
 }
 

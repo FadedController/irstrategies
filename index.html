@@ -17,20 +17,10 @@
       crossorigin="anonymous"
     ></script>
     <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      href="https://fonts.googleapis.com/css2?family=Allan&display=swap"
       rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      rel="stylesheet"
-      type="text/css"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
@@ -62,15 +52,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Nosotros</a>
+              <a class="nav-link js-scroll-trigger nav-elem" href="#about"
+                >Nosotros</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services"
+              <a class="nav-link js-scroll-trigger nav-elem" href="#services"
                 >Servicios</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
+              <a class="nav-link js-scroll-trigger nav-elem" href="#contact"
+                >Contacto</a
+              >
             </li>
           </ul>
         </div>
@@ -79,14 +73,24 @@
     <!-- Masthead-->
     <header class="masthead hero">
       <div class="container hero-div">
-        <div class="masthead-subheading">¡Bienvenido a IR Strategies!</div>
-        <div class="masthead-heading text-uppercase">Es todo un gusto</div>
-        <a
-          class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-          href="#about"
-        >
-          Muestrame más
-        </a>
+        <div class="row">
+          <div class="col-lg-8 hero-text">
+            <div class="masthead-subheading">¡Bienvenido a IR Strategies!</div>
+            <div class="masthead-heading text-uppercase">
+              Estamos a la orden para comenzar con tu proyecto
+            </div>
+            <a
+              class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+              href="#about"
+              style="font-size: 30px"
+            >
+              Muestrame más
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <img class="hero-image" src="/assets/img/hero.png" alt="" />
+          </div>
+        </div>
       </div>
     </header>
     <!-- About-->
@@ -119,11 +123,7 @@
                 porttitor. Justo eget magna fermentum iaculis eu non. Nullam
                 eget felis eget nunc lobortis mattis. Est ullamcorper eget nulla
                 facilisi etiam dignissim diam quis. Nibh nisl condimentum id
-                venenatis a. Id nibh tortor id aliquet lectus proin nibh nisl
-                condimentum. Interdum consectetur libero id faucibus nisl
-                tincidunt eget. Ullamcorper malesuada proin libero nunc
-                consequat interdum varius sit. Sagittis aliquam malesuada
-                bibendum arcu.
+                venenatis a.
               </p>
             </div>
           </div>
@@ -148,20 +148,16 @@
                 porttitor. Justo eget magna fermentum iaculis eu non. Nullam
                 eget felis eget nunc lobortis mattis. Est ullamcorper eget nulla
                 facilisi etiam dignissim diam quis. Nibh nisl condimentum id
-                venenatis a. Id nibh tortor id aliquet lectus proin nibh nisl
-                condimentum. Interdum consectetur libero id faucibus nisl
-                tincidunt eget. Ullamcorper malesuada proin libero nunc
-                consequat interdum varius sit. Sagittis aliquam malesuada
-                bibendum arcu.
+                venenatis a.
               </p>
             </div>
           </div>
           <br />
           <div class="text-center">
             <a
-              class="btn btn-secondary btn-xl text-uppercase js-scroll-trigger"
-              href="#"
-              style="padding: 15px"
+              class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+              href="about.html"
+              style="padding: 15px; font-size: 30px"
               >Aprende mas</a
             >
           </div>
@@ -221,9 +217,9 @@
         </div>
         <div class="text-center" style="margin-top: 20px">
           <a
-            class="btn btn-secondary btn-xl text-uppercase js-scroll-trigger"
+            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
             href="services.html"
-            style="padding: 15px"
+            style="padding: 15px; font-size: 30px"
             >Aprende mas</a
           >
         </div>
@@ -240,7 +236,8 @@
             Ponte en contacto!
           </h2>
           <h3 class="section-subheading align-left" style="color: #fff">
-            Llena la siguiente informacion para ponerte en contacto con nosotros
+            Deja tus datos para realizar una cotización o para que nos
+            contactemos contigo
           </h3>
           <form
             id="contactForm"
@@ -296,9 +293,10 @@
             <div class="text-center">
               <div id="success"></div>
               <button
-                class="btn btn-primary btn-xl text-uppercase"
+                class="btn btn-secondary btn-xl text-uppercase"
                 id="sendMessageButton"
                 type="submit"
+                style="font-size: 30px"
               >
                 Enviar
               </button>
@@ -308,7 +306,7 @@
       </div>
     </section>
     <!-- Footer-->
-    <footer class="footer py-4">
+    <footer class="footer py-4" style="background-color: #f5f5f5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-4 text-lg-left">
