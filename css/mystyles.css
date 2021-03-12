@@ -113,15 +113,21 @@ label {
   .align-left,
   .align-justify {
     align-items: center;
+    justify-content: center;
     text-align: center;
   }
 
+  .hero-text {
+    padding-right: 0px;
+  }
+
   .hero {
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   .hero-image {
     margin-top: 30px;
+    width: 60%;
   }
 }
 
